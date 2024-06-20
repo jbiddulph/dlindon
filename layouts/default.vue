@@ -9,7 +9,7 @@
         <div class="flex flex-row justify-between w-full">
           <div class="flex items-center">
             <NuxtLink href="/">
-              <h1 class="text-slate-700 text-2xl">Delia Lindon Spence</h1>
+              <h1 class="text-slate-700 text-2xl">Delia Lindon-Spence</h1>
             </NuxtLink>
           </div>
           <button @click="toggleMenu" class="block md:hidden">
@@ -38,7 +38,7 @@
       <nuxt-page />
     </main>
     <footer class="bg-gray-800 text-white text-center p-4">
-      <p class="text-xs">&copy; copyright delialindonspence 2024 </p>
+      <p class="text-xs">&copy; copyright 2024 </p>
     </footer>
   </div>
 </template>
