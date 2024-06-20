@@ -9,8 +9,7 @@
         <div class="flex flex-row justify-between w-full">
           <div class="flex items-center">
             <NuxtLink href="/">
-              <img src="/public/signature.png" alt="Melvyn Biddulph" width="360" height="53" class="mr-4" />
-              <h1 class="sr-only">Melvyn Biddulph</h1>
+              <h1 class="text-slate-700 text-2xl">Delia Lindon Spence</h1>
             </NuxtLink>
           </div>
           <button @click="toggleMenu" class="block md:hidden">
@@ -39,7 +38,7 @@
       <nuxt-page />
     </main>
     <footer class="bg-gray-800 text-white text-center p-4">
-      <p class="text-xs">&copy; copyright mbiddulph 2024 </p>
+      <p class="text-xs">&copy; copyright delialindonspence 2024 </p>
     </footer>
   </div>
 </template>
@@ -82,14 +81,14 @@ watchEffect(() => {
     links.value = [
       // { text: 'Home', href: '/' },
       // { text: 'Map', href: '/map' },
-      { text: 'Gallery', href: '/gallery' },
-      { text: 'Add Item', href: '/items/create' },
+      // { text: 'Gallery', href: '/gallery' },
+      // { text: 'Add Item', href: '/items/create' },
     ];
   } else {
     links.value = [
       // { text: 'Home', href: '/' },
       // { text: 'Map', href: '/map' },
-      { text: 'Gallery', href: '/gallery' },
+      // { text: 'Gallery', href: '/gallery' },
       // { text: 'Login', href: '/auth/login' },
       // { text: 'Register', href: '/auth/register' },
     ];

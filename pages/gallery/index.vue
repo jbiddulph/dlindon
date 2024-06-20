@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
-    <h1 class="text-4xl py-10 px-4">The Gallery</h1>
-    <div v-if="totalPages > 1" class="flex mx-auto w-100 justify-center mb-10">
+    <!-- <h1 class="text-4xl py-10 px-4">The Gallery</h1> -->
+    <div v-if="totalPages > 1" class="flex mx-auto w-100 justify-center mb-10 mt-10">
       <button class="bg-green-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded inline-flex items-center mr-2" @click="prevPage" :disabled="currentPage === 1">Prev</button>
       <button class="bg-green-500 hover:bg-gray-400 text-white font-bold py-2 px-4 rounded inline-flex items-center mr-2" @click="nextPage" :disabled="currentPage === totalPages">Next</button>
     </div>
